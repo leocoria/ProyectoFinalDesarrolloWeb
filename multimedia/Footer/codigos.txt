@@ -1,0 +1,10 @@
+whatsapp
+
+<i class="fa-brands fa-whatsapp"></i>
+
+Correo
+
+<i class="fa-regular fa-envelope"></i>
+
+Telefono
+

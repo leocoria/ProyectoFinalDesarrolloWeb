@@ -1,0 +1,161 @@
+/*Reseteo CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Aplico CSS al header*/
+
+/*Cargo en el header una imagen de fondo*/
+
+header {
+  background: url(multimedia/header/header.jpg) top center no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin: 0;
+  border-bottom: solid white 1px;
+}
+
+/*Cambio estilo a la lista y aplico Box Model*/
+
+header ul {
+  list-style: none;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 40px;
+  left: 600px;
+}
+
+
+#logoStoica {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/*Utilizo inline-block para ver los items de la lista en una misma linea*/
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  padding: 3px;
+  border: solid black 1px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+}
+
+/*Aplico CSS al Footer*/
+
+footer ul {
+  list-style: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+footer {
+  border-top: solid white 1px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*Aplico CSS al Main del index.html*/
+
+.subcontenedor{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  
+}
+
+.contenedorPrincipal{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .parrafo{
+  padding: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  width: 80%;
+  color: white;
+ }
+
+ main{
+  padding: 50px 0 50PX 0;
+  background-color: rgb(1, 1, 14);
+ }
+
+
+ h1, h2{
+  padding-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:white;
+  text-align: center;
+ }
+
+
+ fieldset{
+  padding: 50px;
+  margin: 100px 350px 100px 350px;
+  text-align: center;
+  color: white;
+  width: 50%;
+ }
+
+ .ajustarImg{
+  border: double white 2px;
+  border-radius: 10px;
+  width: 80%;
+ }
+ 
+ .divProductos{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ }
+
+ .divModeloDescrip{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+ }
+
+.divImg{
+  padding: 40px 0 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nombreModelo{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: left;
+  color: whitesmoke;
+}
+
+.descripcionProducto{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: justify;
+  font-size: 16px;
+  width: 80%;
+  color: whitesmoke;
+}
