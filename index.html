@@ -13,6 +13,14 @@
 
   <link rel="shortcut icon" href="multimedia/favicon.ico" type="image/x-icon">
 
+  <!--Agrego libreria CSS-->
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <title>Stoica</title>
 
@@ -22,47 +30,63 @@
 
   <!--Creo el header-->
 
-<header>
-
-  <div>
-
-    <img src="multimedia/Header/logoStoica.png" id="logoStoica" alt="Logo Stoica" />
-
-    <nav>
-
-      <ul>
-
-        <li>
-          <a href="index.html" class="linkItem">Inicio</a>
-        </li>
-        <li>
-          <a href="nosotros.html" class="linkItem">Nosotros</a>
-        </li> 
-        <li>
-          <a href="productos.html" class="linkItem">Productos</a>
-        </li>
-        <li>
-          <a href="ubicacion.html" class="linkItem">Ubicación</a>
-        </li>
-        <li>
-          <a href="contacto.html" class="linkItem">Contacto</a>
-        </li>
-
-      </ul>
-
-    </nav>
-
-  </div>
-
-</header>
+  <header>
+    <div class="fondoHeader">
+      <a href="index.html">
+      <img
+        id="logoStoica"
+        src="multimedia/Header/logoStoica.png"
+        alt="Logo Stoica"
+      />
+    </a>
+    </div>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="nosotros.html">Nosotros</a>
+          </li>
+          <li>
+            <a href="productos.html">Productos</a>
+          </li>
+          <li>
+            <a href="ubicacion.html">Ubicación</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
 <!--Creo el Main-->
 
 <main>
 
+  <div class="titulos">
+    <div>
+      <h1 class="tituloIndex" >
+        ¡Somos Stoica Shoes!
+      </h1>
+  
+      <h2 class="subtituloIndex">
+        Las zapatillas que necesitas
+      </h2>
+      <div class="divScroll">
+      <img class="scrollDown" src="multimedia/Header/down-arrow.png" alt="Flecha Scroll Down">
+      </div>
+    </div>
+  </div>
+ 
+
   <section class="main__section">
+
     <div class="contenedorPrincipal">
-    <div class="subcontenedor">
+    <div class="subcontenedor" data-aos="fade-right">
     <p class="parrafo">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque saepe unde voluptatibus nesciunt tempora libero omnis aspernatur culpa totam ex, repellat accusamus similique. Nobis quia exercitationem quod. Numquam, quo eius.
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corporis harum, quo sequi rem asperiores voluptatibus velit facilis, id soluta error iste eum quae optio, ea eos iusto quod impedit.
@@ -76,7 +100,7 @@
   <div class="subcontenedor">
     <img src="multimedia/Inicio/modelo2Stoica.jpg" class="ajustarImg" alt="modelo2Stoica">
     </div>
-    <div class="subcontenedor">
+    <div class="subcontenedor" data-aos="fade-left">
     <p class="parrafo">
       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt temporibus dolorum impedit in, iusto non est obcaecati maiores voluptatum quas, error, a voluptas. Neque, nobis iste. Quae omnis aut sapiente?
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique repudiandae quam ad deserunt porro sed ea iusto quas enim corrupti quae, cum libero eius molestias commodi voluptates ut nam praesentium.
@@ -110,6 +134,11 @@
     </ul>
   </nav>
 </footer>
-  
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+    AOS.init();
+ </script>
+
 </body>
 </html>
