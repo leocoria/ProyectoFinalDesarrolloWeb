@@ -125,9 +125,11 @@ h3{
 }
 
 .iconoRedes{
-  padding: 10px;
   width: 30px;
   height: 30px;
+}
+footer li{
+  padding: 4px;
 }
 
 .subDivFooter{
@@ -137,7 +139,6 @@ h3{
 }
 
 .iconosLista{
-  padding-right: 10px;
   width: 16px;
   height: 16px;
 }
