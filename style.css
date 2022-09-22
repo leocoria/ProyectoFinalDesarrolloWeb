@@ -112,11 +112,40 @@ footer {
   background-image: linear-gradient(to bottom, black,  rgb(1, 1, 49));
 }
 
-footer nav {
+footer div {
   display: flex;
   justify-content: space-around;
 }
 
+h3{
+  padding: 10px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.iconoRedes{
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.subDivFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconosLista{
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.divListas{
+  display: flex;
+  justify-content: space-between;
+}
 
 /*Aplico CSS al Main del index.html*/
 
