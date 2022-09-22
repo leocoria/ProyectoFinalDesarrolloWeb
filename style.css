@@ -9,20 +9,16 @@
 /*Cargo en el header una imagen de fondo*/
 
 .fondoHeader {
-
   background: url(multimedia/header/header.jpg) top center no-repeat;
   background-size: cover;
   width: 100%;
   height: 350px;
   margin: 0;
-
 }
 
-.menu{
-
+.menu {
   background-color: black;
   width: 100%;
-  
 }
 
 header ul {
@@ -36,12 +32,12 @@ header ul {
   padding: 10px 200px;
 }
 
-header li:hover{
+header li:hover {
   transform: scale(1.2);
   transition: 0.5s;
 }
 
-a:hover{
+a:hover {
   color: maroon;
   transition: 1s;
 }
@@ -53,7 +49,7 @@ a:hover{
   transition: 1.5s;
 }
 
-#logoStoica:hover{
+#logoStoica:hover {
   transform: scale(1.2);
   transition: 1.5s;
 }
@@ -71,45 +67,41 @@ header ul li a {
   transition: 1s;
 }
 
-.titulos{
+.titulos {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
-.divScroll{
+.divScroll {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.scrollDown{
+.scrollDown {
   height: 30px;
   width: 30px;
   animation: flash 2s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
   animation-delay: 1s;
 }
-
 
 /*Aplico CSS al Footer*/
 
 footer ul {
   list-style: none;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: white;
 }
 
 footer {
   border-top: solid white 1px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  background-image: linear-gradient(to bottom, black,  rgb(1, 1, 49));
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(to bottom, black, rgb(1, 1, 49));
 }
 
 footer div {
@@ -117,137 +109,136 @@ footer div {
   justify-content: space-around;
 }
 
-h3{
+h3 {
   padding: 10px;
   color: white;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.iconoRedes{
+.iconoRedes {
   width: 30px;
   height: 30px;
 }
-footer li{
+
+footer li {
   padding: 4px;
 }
 
-.subDivFooter{
+.subDivFooter {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.iconosLista{
+.iconosLista {
   width: 16px;
   height: 16px;
 }
 
-.divListas{
+.divListas {
   display: flex;
   justify-content: space-between;
 }
 
 /*Aplico CSS al Main del index.html*/
 
-
-.subcontenedor{
+.subcontenedor {
   width: 50%;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-direction: column;
-  
 }
 
-.tituloIndex{
+.tituloIndex {
   font-size: 40px;
   animation: jackInTheBox 0.8s;
-  animation-delay: 0.1s; 
+  animation-delay: 0.1s;
   padding-bottom: 20px;
 }
 
-.subtituloIndex{
+.subtituloIndex {
   color: maroon;
   font-size: 18px;
   padding-bottom: 50px;
 }
 
-.contenedorPrincipal{
+.contenedorPrincipal {
   width: 100%;
   display: flex;
   justify-content: space-between;
- }
+}
 
- .parrafo{
+.parrafo {
   padding: 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: justify;
   font-size: 18px;
   width: 80%;
   color: white;
- }
+}
 
- main{
-  padding: 50px 0 50PX 0;
+main {
+  padding: 50px 0 50px 0;
   background-color: rgb(0, 0, 7);
- }
+}
 
-
- h1, h2{
+h1,
+h2 {
   padding-bottom: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
   text-align: center;
- }
+}
 
-
- fieldset{
+fieldset {
   padding: 50px;
   margin: 100px 350px 100px 350px;
   text-align: center;
   color: white;
   width: 50%;
- }
+}
 
- .ajustarImg{
+.ajustarImg {
   margin: 50px 0;
   border: double white 2px;
   border-radius: 10px;
   width: 80%;
-  box-shadow: 5px 4px 16px 6px rgba(20,28,74,0.49);
-  -webkit-box-shadow: 5px 4px 16px 6px rgba(20,28,74,0.49);
-  -moz-box-shadow: 5px 4px 16px 6px rgba(20,28,74,0.49);
- }
- 
- .divProductos{
+  box-shadow: 5px 4px 16px 6px rgba(20, 28, 74, 0.49);
+  -webkit-box-shadow: 5px 4px 16px 6px rgba(20, 28, 74, 0.49);
+  -moz-box-shadow: 5px 4px 16px 6px rgba(20, 28, 74, 0.49);
+}
+
+.divProductos {
   width: 25%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
- }
+}
 
- .divModeloDescrip{
+.divModeloDescrip {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  
- }
+}
 
-.divImg{
+.divImg {
   padding: 40px 0 40px 0;
   display: flex;
   justify-content: center;
 }
 
-.nombreModelo{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.nombreModelo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: left;
   color: whitesmoke;
 }
 
-.descripcionProducto{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.descripcionProducto {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: justify;
   font-size: 16px;
   width: 80%;
