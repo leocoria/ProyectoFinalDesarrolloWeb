@@ -128,7 +128,6 @@ ul {
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-rows: repeat(2, auto);
-  justify-content: center;
 }
  
 .centrar {
