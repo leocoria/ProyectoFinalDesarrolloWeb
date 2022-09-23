@@ -104,14 +104,10 @@ footer {
   background-image: linear-gradient(to bottom, black, rgb(1, 1, 49));
 }
 
-footer div {
-  display: flex;
-  justify-content: space-around;
-}
-
 h3 {
   padding: 10px;
   color: white;
+  text-align: left;
 }
 
 .iconoRedes {
@@ -121,22 +117,29 @@ h3 {
 
 footer li {
   padding: 4px;
+  font-size: 16px;
 }
 
-.subDivFooter {
-  display: flex;
-  flex-direction: column;
+ul {
+  padding: 0;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: repeat(2, auto);
   justify-content: center;
 }
+ 
+.centrar {
+  display: flex;
+  justify-content: center;
+}
+
 
 .iconosLista {
   width: 16px;
   height: 16px;
-}
-
-.divListas {
-  display: flex;
-  justify-content: space-between;
 }
 
 /*Aplico CSS al Main del index.html*/
