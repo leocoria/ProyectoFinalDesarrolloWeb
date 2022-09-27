@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!--Conecto con Bootstrap-->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
     <!--Conecto el archivo CSS-->
 
     <link rel="stylesheet" href="style.css" />
@@ -47,27 +56,41 @@
           />
         </a>
       </div>
-      <div class="menu">
-        <nav>
-          <ul>
-            <li>
-              <a href="index.html">Inicio</a>
-            </li>
-            <li>
-              <a href="nosotros.html">Nosotros</a>
-            </li>
-            <li>
-              <a href="productos.html">Productos</a>
-            </li>
-            <li>
-              <a href="ubicacion.html">Ubicación</a>
-            </li>
-            <li>
-              <a href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+
+      <!--Creo el navbar con Bootstrap-->
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Home</a>
+          <button
+            class="navbar-toggler
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ubicacion.html">Ubicación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!--Creo el main-->
@@ -81,18 +104,31 @@
             </div>
             <div>
               <p class="parrafo">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Accusantium impedit hic, alias, voluptas dolores rem molestias
-                sequi libero nostrum facere adipisci distinctio perspiciatis
-                explicabo quis? Nobis unde sunt ut optio. Lorem ipsum dolor sit,
-                amet consectetur adipisicing elit. Qui repudiandae modi
-                recusandae dignissimos saepe quidem, aspernatur vero tenetur
-                excepturi odio! Natus hic corporis laboriosam eaque magnam
-                molestiae aspernatur consectetur optio! Lorem ipsum dolor, sit
-                amet consectetur adipisicing elit. Beatae error hic reiciendis
-                deleniti nemo! Eveniet corporis nulla tempora, exercitationem ea
-                illo! Deleniti quo molestiae ullam? Officiis rerum vitae a
-                doloremque.
+                A través de los años, Stoica logró posicionarse como la primer y
+                única empresa argentina en proveer todo tipo de equipamiento
+                para estos deportes. 
+              </p>  
+              <p class="parrafo">
+                Con un cuidadoso crecimiento, y ofreciendo
+                productos que alcanzaban los más estrictos controles de calidad,
+                Cristóbal Colón se asoció a las mejores marcas del rubro,
+                logrando así llevar la bandera de la vanguardia en el mundo
+                deportivo y textil.
+              </p>
+              <p class="parrafo">
+                El deporte, el descubrimiento, la adrenalina, la
+                música, el encuentro, la naturaleza, los espacios abiertos de
+                Buenos Aires, el arte “Street”, son los valores fundamentales de
+                la marca, que tiene un target amplísimo, delineado más bien por
+                el gusto que por la edad. Tanto jóvenes de 14 años, como
+                adultos, compran en Cristóbal Colón. 
+                </p>
+                <p class="parrafo">
+                La marca sabe interpretar
+                bien la filosofía de los deportes que representa, se desprende
+                de toda lógica con respecto a la edad, y difunde una cultura y
+                un estilo de vida ligados al impulso creativo de salir a ver qué
+                pasa allá afuera.
               </p>
             </div>
           </div>
@@ -184,6 +220,24 @@
                     src="multimedia/Footer/instagram.png"
                     class="iconoRedes"
                     alt="Icono Instagram"
+                  />
+                </a>
+              </li>
+                <li>
+                <a href="https://twitter.com/?lang=en">
+                  <img
+                    src="multimedia/Footer/twitter.png"
+                    class="iconoRedes"
+                    alt="Icono twitter"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/">
+                  <img
+                    src="multimedia/Footer/youtube.png"
+                    class="iconoRedes"
+                    alt="Icono youtube"
                   />
                 </a>
               </li>
